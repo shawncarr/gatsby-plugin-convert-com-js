@@ -1,0 +1,26 @@
+{
+  "name": "gatsby-plugin-convert-com-js",
+  "version": "1.0.0",
+  "description": "Easily add Convert.com JS snippet to your website",
+  "main": "gatsby-ssr.js",
+  "scripts": {
+    "build": "babel src --out-dir . --ignore __tests__"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "convert.com"
+  ],
+  "repository": "git@github.com:shawncarr/gatsby-plugin-convert-com-js.git",
+  "author": "shawn carr<shawn@sharpnotions.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shawncarr/gatsby-plugin-convert-com-js/issues"
+  },
+  "homepage": "https://github.com/shawncarr/gatsby-plugin-convert-com-js#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1"
+  }
+}
